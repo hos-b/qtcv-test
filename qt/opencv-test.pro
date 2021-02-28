@@ -30,9 +30,12 @@ win32: contains(QT_ARCH, i386) {
     error("open-cv is not compiled for 32-bit")
 } else {
     LIBS += -LC:/lib/opencv/build/install/x64/mingw/staticlib \
-        -lopencv_core410 \
         -lopencv_highgui410 \
         -lopencv_calib3d410 \
+        -lopencv_imgproc410 \
+        -lopencv_imgcodecs410 \
+        # IMPORTANT to link core last with static opencv!
+        -lopencv_core410 \
         -lzlib
     INCLUDEPATH += C:/lib/opencv/build/install/include
     DEPENDPATH += C:/lib/opencv/build/install/include

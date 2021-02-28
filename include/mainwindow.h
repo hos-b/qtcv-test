@@ -2,8 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QImage>
-#include <opencv2/opencv.hpp>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class ImageViewer; }
@@ -22,7 +20,5 @@ private slots:
 
 private:
     Ui::ImageViewer *ui_;
-    QImage qimage_;
-    cv::Mat image;
 };
 #endif // MAINWINDOW_H
