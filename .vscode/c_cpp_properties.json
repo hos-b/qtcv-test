@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/../build-opencv-test-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
+                "C:/Qt/5.15.2/mingw81_64/include",
+                "C:/Qt/5.15.2/mingw81_64/include/QtWidgets",
+                "C:/Qt/5.15.2/mingw81_64/include/QtCore",
+                "C:/Qt/5.15.2/mingw81_64/include/QtGui",
+                "C:/lib/opencv/build/install/include"
+
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}
