@@ -28,8 +28,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 # opencv include
 win32: contains(QT_ARCH, i386) {
     error("open-cv is not compiled for 32-bit")
-} 
-win32: else {
+} else {
     LIBS += -LC:/lib/opencv/build/install/x64/mingw/staticlib \
         -lopencv_core410 \
         -lopencv_highgui410 \
