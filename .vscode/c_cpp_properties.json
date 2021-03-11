@@ -4,7 +4,9 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/include",
-                "${workspaceFolder}/../build-opencv-test-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
+                "${workspaceFolder}/bind/pybind11/include",
+                "C:/Program Files/Python37/include",
+                // "${workspaceFolder}/../build-opencv-test-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
                 "C:/Qt/5.15.2/mingw81_64/include",
                 "C:/Qt/5.15.2/mingw81_64/include/QtWidgets",
                 "C:/Qt/5.15.2/mingw81_64/include/QtCore",
